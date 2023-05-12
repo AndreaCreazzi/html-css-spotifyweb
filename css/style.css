@@ -35,7 +35,7 @@ main{
 }
 
 #sidebar{
-    height: 90vh; 
+    height: calc(100vh - 10vh); 
     width: 60px; 
     position: absolute;
     z-index: 1; 
@@ -73,7 +73,7 @@ main{
 }
 
 .account-phone{
-    margin-top: 470px;
+    margin-top: 425px;
 }
 
 .account-phone .download{
@@ -112,10 +112,72 @@ main{
 .logo-playlist-desktop a{
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: lightgray;
     vertical-align: middle;
     margin-bottom: 1rem;
 }
 
+.logo-playlist-desktop .select{
+    color: white;
+    font-weight: 900;
+    border-left: 5px solid green;
+}
 
+.logo-playlist-desktop h2{
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.btn-desktop span{
+    margin-left: 1.5rem;
+    font-size: 3rem;
+    background-color: lightgray;
+    padding: 0.1rem 1rem;
+    color: black;
+    margin-right: 1rem;
+    font-weight: 900;
+}
+
+.btn-desktop p{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.btn-desktop:last-child{
+    margin-bottom: 6rem;
+}
+
+.download-desktop img{
+    width: 10%;
+    margin-left: 1rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.account-desktop a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.separator{
+    height: 1px;
+    border: 1px solid white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile img{
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.profile{
+    color: white;
+    font-weight: 900;
+}
