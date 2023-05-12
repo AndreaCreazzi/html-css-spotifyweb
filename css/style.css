@@ -10,4 +10,36 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+footer{
+    height: 10vh;
+    background-color: #282828;
+}
+
+header{
+    height: 10vh;
+    background-color: #080b12;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+main{
+    height: 80vh;
+    /* todo remove */
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 10px;
+    overflow: auto;
+}
+
+#sidebar{
+    height: 90vh; 
+    width: 60px; 
+    position: absolute;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+}
+
 /* utility */
