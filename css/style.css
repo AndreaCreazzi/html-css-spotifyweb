@@ -1,4 +1,5 @@
 /* reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 }
 
 /* generics */
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -49,6 +51,8 @@ main{
     display: flex;
 }
 
+/* header */
+
 .upgrade{
     justify-content: flex-end;
     align-items: center;
@@ -62,24 +66,56 @@ main{
     border: 1px solid white;
 }
 
-.logos img{
+/* sidebar phone */
+
+.btn-phone img{
     padding: 0.5rem 0.8rem;
 }
 
-.account{
+.account-phone{
     margin-top: 470px;
 }
 
-.account .download{
+.account-phone .download{
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1.2rem;
 }
 
-.account .profile{
+.account-phone .profile{
     background-color: grey;
     border-radius: 50px;
     padding: 0.5rem 0.5rem;
     margin: 0.5rem 0.5rem;
 }
+
+/* sidebar desktop */
+
+.logo-playlist-desktop .logo{
+    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-desktop{
+    display: block;
+}
+
+.btn-desktop img{
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 1.5rem;
+}
+
+.logo-playlist-desktop a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+}
+
+
+

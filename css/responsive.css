@@ -9,24 +9,39 @@
         max-width: 400px;
     }
 }
+
 @media screen and (min-width: 768px) {
     .container{
         max-width: 540px;
     }
 
     #sidebar{
-        width: 170px;
+        width: 250px;
     }
 
     main{
         padding-left: 180px;
     }
+
+    .btn-phone{
+        display: none;
+    }
+
+    .account-phone{
+        display: none;
+    }
+
+    .logo-playlist-desktop{
+
+    }
 }
+
 @media screen and (min-width: 992px) {
     .container{
         max-width: 742px;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .container{
         max-width: 972px;
