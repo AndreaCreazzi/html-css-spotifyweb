@@ -181,3 +181,50 @@ main{
     color: white;
     font-weight: 900;
 }
+
+/* main */
+
+
+/* footer */
+.col{
+    height: 10vh;
+}
+
+.card{
+    flex-basis: calc(100% / 3);
+}
+
+.song{
+    display: inline-block;
+}
+
+.song img{
+    width: 40px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.info{
+    margin-top: 1rem;
+    margin-left: 0.9rem;
+}
+
+.info h4{
+    color: white;
+}
+
+.info p{
+    color: grey;
+}
+
+.icons .fa-regular{
+    color: gray;
+    display: block;
+    margin-left: 2rem;
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+.fa-regular:first-child{
+    margin-top: 1rem;
+}
