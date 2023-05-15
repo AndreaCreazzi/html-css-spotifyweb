@@ -51,6 +51,10 @@ main{
     display: flex;
 }
 
+.f-direction-c{
+    flex-direction: column;
+}
+
 /* header */
 
 .upgrade{
@@ -201,7 +205,7 @@ main{
 .song img{
     width: 40px;
     margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
 }
 
 .info{
@@ -227,4 +231,80 @@ main{
 
 .fa-regular:first-child{
     margin-top: 1rem;
+}
+
+.btn-player{
+    margin-top: 0.5rem;
+}
+
+.btn-player .fa-solid{
+    color: white;
+    font-size: 25px;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.btn-player .fa-regular{
+    color: white;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.player-bar{
+    margin-top: 0.8rem;
+    align-items: center;
+}
+
+.player-box{
+    width: 100%;
+}
+
+.player-bar .bar{
+    width: 95%;
+    border-radius: 30px;
+    background-color: #585858;
+    margin-left: 10px;
+}
+
+.player-bar .second-bar{
+    width: 40%;
+    border: 5px solid lightgray;
+    border-radius: 30px;
+}
+
+.player-bar span{
+    color: white;
+}
+
+.btn-player .fa-arrow-rotate-right{
+    margin-right: 0;
+}
+
+.btn-player .fa-shuffle{
+    margin-left: 0;
+}
+
+.btn-right{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    font-size: 20px;
+}
+
+.btn-right .fa-solid{
+    margin-right: 0.5rem;
+}
+
+.bar-small{
+    width: 100px;
+    border-radius: 30px;
+    background-color: #585858;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.second-bar-small{
+    width: 30px;
+    border: 5px solid lightgray;
+    border-radius: 30px;
 }

@@ -12,6 +12,10 @@
     .logo-playlist-desktop{
         display: none;
     }
+
+    .account-desktop{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -24,7 +28,7 @@
     }
 
     main{
-        padding-left: 180px;
+        padding-left: 270px;
     }
 
     .btn-phone{
@@ -38,16 +42,44 @@
     .logo-playlist-desktop{
         display: block;
     }
+
+    .account-desktop{
+        display: block;
+    }
+
+    .btn-player{
+        margin-left: 2.5rem;
+    }
+
+    .btn-right{
+        margin-left: 5.5rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .container{
         max-width: 742px;
     }
+
+    .btn-player{
+        margin-left: 4.5rem;
+    }
+
+    .btn-right{
+        margin-left: 9.5rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .container{
         max-width: 972px;
+    }
+
+    .btn-player{
+        margin-left: 10.5rem;
+    }
+
+    .btn-right{
+        margin-left: 12.5rem;
     }
 }
