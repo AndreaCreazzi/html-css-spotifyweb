@@ -70,6 +70,10 @@ main{
     border: 1px solid white;
 }
 
+.upgrade a:hover{
+    color: green;
+}
+
 /* sidebar phone */
 
 .btn-phone img{
@@ -101,10 +105,12 @@ main{
     padding-left: 1rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .btn-desktop{
     display: block;
+    transition: border-left 1s;
 }
 
 .btn-desktop img{
@@ -227,8 +233,6 @@ main p{
    color: white;
 }
 
-
-
 /* song selector */
 
 .row{
@@ -241,10 +245,20 @@ main p{
 
 .row .card-song{
     flex-basis: 40%;
+    position: relative;
 }
 
 .card-song img{
     width: 100%;
+    transition: opacity 1s;
+}
+
+.card-song .fa-regular{
+    position: absolute;
+    top: 25%;
+    left: 41%;
+    color: white;
+    display: none;
 }
 
 .card-song h2{
@@ -252,7 +266,14 @@ main p{
     text-align: center;
 }
 
+.card-song img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
 
+.card-song:hover .fa-regular{
+    display: block;
+}
 
 .card-song p{
     margin-top: 0.5rem;
